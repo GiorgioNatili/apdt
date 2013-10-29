@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.gnstudio.apdt</groupId>
+		<artifactId>org.gnstudio.apdt.parent</artifactId>
+		<version>1.1.0-SNAPSHOT</version>
+		<relativePath>../org.gnstudio.apdt.parent</relativePath>
+	</parent>
+	
+	<artifactId>com.gnstudio.apdt.parent</artifactId>
+	<name>Pseudocode Development Tool - Pro</name>
+	<packaging>pom</packaging>
+	<modules>
+		<module>../org.gnstudio.apdt.model</module>
+		<module>../org.gnstudio.apdt</module>
+		<module>../org.gnstudio.apdt.model.editor</module>
+		<module>../org.gnstudio.apdt.model.jdt</module>
+		<module>../org.gnstudio.apdt.model.fdt</module>
+		<module>../org.gnstudio.apdt.model.pfdt</module>
+		
+		<module>../org.gnstudio.apdt.feature</module>
+		<module>../org.gnstudio.apdt.java.feature</module>
+		<module>../org.gnstudio.apdt.flex.feature</module>
+		<module>../org.gnstudio.apdt.fdt.feature</module>
+		<!-- <module>../org.gnstudio.apdt.site</module> -->
+		<module>../org.gnstudio.apdt.target</module>
+		<!-- build pro features -->
+		<module>../com.gnstudio.apdt</module>
+		<module>../com.gnstudio.apdt.pseudo.core</module>
+		<module>../com.gnstudio.apdt.flex.gen.core</module>
+		<module>../com.gnstudio.apdt.java.gen.core</module>
+		<module>../com.gnstudio.apdt.js.gen.core</module>
+		<module>../com.gnstudio.apdt.php.gen.core</module>
+		<module>../com.gnstudio.apdt.haxe.gen.core</module>
+		<module>../com.gnstudio.apdt.pseudo.ui</module>
+		<module>../com.gnstudio.apdt.feature</module>
+		<module>../com.gnstudio.apdt.site</module>
+	</modules>
+</project>

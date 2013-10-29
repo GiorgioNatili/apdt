@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            category="org.gnstudio.apdt.PreferencesPage"
+            class="com.gnstudio.apdt.preferences.ActivationPreferencePage"
+            id="com.gnstudio.apdt.activation.page"
+            name="%preference.activation.name">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="com.gnstudio.apdt.APDTBoot">
+      </startup>
+   </extension>
+   <extension
+         point="org.gnstudio.apdt.model.editor.snippetProvider">
+      <provider
+            class="com.gnstudio.apdt.snippet.LocalSnippetProvider">
+      </provider>
+   </extension>
+   <extension
+         point="org.eclipse.ui.exportWizards">
+      <category
+            id="com.gnstudio.apdt.snippet"
+            name="PDT">
+      </category>
+      <wizard
+            category="com.gnstudio.apdt.snippet"
+            class="com.gnstudio.apdt.snippet.export.ExportWizard"
+            icon="icons/etools16/apd-export.gif"
+            id="com.gnstudio.apdt.snippet.exportWizard"
+            name="Export Snippets">
+      </wizard>
+   </extension>
+   <extension
+         point="org.eclipse.ui.importWizards">
+      <category
+            id="com.gnstudio.apdt.snippet"
+            name="PDT">
+      </category>
+      <wizard
+            category="com.gnstudio.apdt.snippet"
+            class="com.gnstudio.apdt.snippet.export.ImportWizard"
+            icon="icons/etools16/apd-import.gif"
+            id="com.gnstudio.apdt.snippet.importWizard"
+            name="Import Snippets">
+      </wizard>
+   </extension>
+
+</plugin>

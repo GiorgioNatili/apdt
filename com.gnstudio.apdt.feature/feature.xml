@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c)  2010, 2012 GNstudio s.r.l.
+    GNStudio PROPRIETARY/CONFIDENTIAL PROPERTIES. Use is subject to license terms.
+    You CANNOT use this software unless you receive a written permission from GNStudio
+ -->
+<feature
+      id="com.gnstudio.apdt.feature"
+      label="PDT Tooling Pro "
+      version="1.1.0.qualifier"
+      provider-name="GNstudio s.r.l."
+      plugin="com.gnstudio.apdt">
+
+   <description url="http://gnstudio.com/">
+      PDT Pro 
+   </description>
+
+   <copyright url="http://gnstudio.com/">
+      GNstudio s.r.l. Evaluation Agreement
+PLEASE READ THIS EVALUATION AGREEMENT BEFORE PURCHASING OR USING
+THE PRODUCTS. BY USING OR PURCHASING THE PRODUCTS, CUSTOMER SIGNIFIES
+ITS ASSENT TO THIS AGREEMENT. IF YOU ARE ACTING ON BEHALF OF
+AN ENTITY, THEN YOU REPRESENT THAT YOU HAVE THE AUTHORITY TO
+ENTER INTO THIS AGREEMENT ON BEHALF OF THAT ENTITY. IF CUSTOMER
+DOES NOT ACCEPT THE TERMS OF THIS AGREEMENT, THEN IT MUST NOT
+PURCHASE OR USE THE PRODUCTS.
+This Evaluation Agreement, including all exhibits (&apos;Agreement&apos;),
+is between GNstudio s.r.l. (&apos;GNstudio&apos;) and the purchaser or
+user of GNstudio product and/or services that accepts the terms
+of this Agreement (&apos;Customer&apos;). The effective date of this Agreement
+(&apos;Effective Date&apos;) is the date that Customer uses GNstudio products.
+
+1. GRANT OF LICENSE.
+1.1 The License.  Subject to the terms of this Agreement, GNstudio
+grants to Customer a personal, non-exclusive, non-transferable
+internal license to install on computers owned or leased by Customer
+and to test the Product and the materials provided to Customer
+by GNstudio (&quot;Materials&quot;) for thirty (60) days (&quot;Evaluation Period&quot;),
+solely to evaluate the features, functionality and performance
+of the Product. At the end of the Evaluation Period, the Materials
+may cease to function. The Product may not be used for any other
+purpose, including but not limited to productive or commercial
+use.
+
+1.2 License Conditions.  GNstudio retains all right, title and
+interest in and to the Product and Materials, and modifications
+to the Product and the Materials.  Customer may not decompile,
+disassemble or reverse engineer any Product. Customer may make
+one copy of each Product for back-up purposes.  All copies of
+Product must contain GNstudio&apos;s and its suppliers&apos; proprietary
+rights notices.  The Product may not be modified, altered or
+enhanced. Customer may not allow any third party to access the
+Product. In no event may Customer transfer, sublicense or distribute
+any Product.  The Product and the Materials may not be copied
+or otherwise reproduced. Customer will obtain and install all
+prerequisite hardware and software (including any necessary access
+rights for GNstudio) identified by GNstudio.
+
+1.3     &quot;Confidential Information&quot; means all information furnished
+by GNstudio in oral, written or machine-readable form, disclosed
+as a result of this Agreement, and that should reasonably have
+been understood by Customer, because of legends or other markings,
+the circumstances of disclosure or the nature of the information
+itself, to be proprietary and confidential to GNstudio, an affiliate
+of it or to a third party. The results of the evaluation will
+also be treated as GNstudio Confidential Information. Customer
+will use a reasonable standard of care to prevent unauthorized
+access to or disclosure of the Confidential Information, but
+in no event less than a reasonable standard of care.  Customer
+will disclose the Confidential Information only to its employees
+with a need to know. The restrictions of this Agreement on use
+and disclosure of Confidential Information shall not apply to
+information that becomes publicly known through no fault of the
+Customer or its personnel. All confidentiality obligations regarding
+Confidential Information shall survive with respect to any Confidential
+Information received prior to the expiration or termination of
+this Agreement.
+
+1.4   Ownership.  Customer acknowledges that GNstudio retains
+ownership of all right, title and interest to the Products and
+Materials and modifications and enhancements of the foregoing.
+
+2.      WARRANTY DISCLAIMER. THE PRODUCT IS PROVIDED &quot;AS IS&quot;
+AND WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, INCLUDING THE
+IMPLIED WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT, QUIET
+ENJOYMENT, ACCURACY OF DATA, SYSTEM INTEGRATION, COURSE OF PERFORMANCE
+AND FITNESS FOR A PARTICULAR PURPOSE.  GNSTUDIO DOES NOT GUARANTEE
+OR WARRANT THAT THE USE OF THE PRODUCT WILL BE UNINTERRUPTED
+OR ERROR FREE.
+
+3.  LIMITATION OF LIABILITY. IN NO EVENT WILL GNSTUDIO BE LIABLE
+FOR ANY CLAIM BASED UPON A THIRD PARTY CLAIM, ANY INCIDENTAL,
+CONSEQUENTIAL, SPECIAL, INDIRECT, EXEMPLARY OR PUNITIVE DAMAGES,
+WHETHER ARISING IN TORT, CONTRACT, OR OTHERWISE; OR FOR ANY DAMAGES
+ARISING OUT OF OR IN CONNECTION WITH ANY MALFUNCTIONS, DELAYS,
+LOSS OF DATA, LOST PROFITS, LOST SAVINGS, INTERRUPTION OF SERVICE,
+LOSS OF BUSINESS OR ANTICIPATORY PROFITS, EVEN IF GNSTUDIO HAS
+BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. GNSTUDIO&apos;S AGGREGATE
+AND CUMULATIVE LIABILITY ARISING OUT OF OR RELATING TO THIS AGREEMENT,
+REGARDLESS OF THE FORM OF THE CAUSE OF ACTION, WHETHER IN CONTRACT,
+TORT (INCLUDING WITHOUT LIMITATION NEGLIGENCE), STATUTE OR OTHERWISE
+WILL BE LIMITED TO DIRECT DAMAGES AND WILL NOT EXCEED TEN THOUSAND
+DOLLARS (US $10,000). THE ALLOCATIONS OF LIABILITY IN THIS SECTION
+3 REPRESENT THE AGREED AND BARGAINED FOR UNDERSTANDING OF THE
+PARTIES, AND THE COMPENSATION OF GNSTUDIO FOR THE SERVICES PROVIDED
+HEREUNDER REFLECTS SUCH ALLOCATIONS. THE FOREGOING LIMITATIONS,
+EXCLUSIONS AND DISCLAIMERS ARE AN ALLOCATION OF THE RISK BETWEEN
+THE PARTIES AND WILL APPLY TO THE MAXIMUM EXTENT PERMITTED BY
+APPLICABLE LAW, EVEN IF ANY REMEDY FAILS IN ITS ESSENTIAL PURPOSE.
+
+4. TERM AND TERMINATION.  The term of this Agreement will begin
+and end on the dates specified in the Evaluation Period above
+or when Product becomes generally available, whichever occurs
+first
+   </copyright>
+
+   <license url="Copyright (c) 2010 GNstudio s.r.l. and others.">
+      GNstudio s.r.l. Evaluation Agreement
+PLEASE READ THIS EVALUATION AGREEMENT BEFORE PURCHASING OR USING
+THE PRODUCTS. BY USING OR PURCHASING THE PRODUCTS, CUSTOMER SIGNIFIES
+ITS ASSENT TO THIS AGREEMENT. IF YOU ARE ACTING ON BEHALF OF
+AN ENTITY, THEN YOU REPRESENT THAT YOU HAVE THE AUTHORITY TO
+ENTER INTO THIS AGREEMENT ON BEHALF OF THAT ENTITY. IF CUSTOMER
+DOES NOT ACCEPT THE TERMS OF THIS AGREEMENT, THEN IT MUST NOT
+PURCHASE OR USE THE PRODUCTS.
+This Evaluation Agreement, including all exhibits (&apos;Agreement&apos;),
+is between GNstudio s.r.l. (&apos;GNstudio&apos;) and the purchaser or
+user of GNstudio product and/or services that accepts the terms
+of this Agreement (&apos;Customer&apos;). The effective date of this Agreement
+(&apos;Effective Date&apos;) is the date that Customer uses GNstudio products.
+
+1. GRANT OF LICENSE.
+1.1 The License.  Subject to the terms of this Agreement, GNstudio
+grants to Customer a personal, non-exclusive, non-transferable
+internal license to install on computers owned or leased by Customer
+and to test the Product and the materials provided to Customer
+by GNstudio (&quot;Materials&quot;) for thirty (60) days (&quot;Evaluation Period&quot;),
+solely to evaluate the features, functionality and performance
+of the Product. At the end of the Evaluation Period, the Materials
+may cease to function. The Product may not be used for any other
+purpose, including but not limited to productive or commercial
+use.
+
+1.2 License Conditions.  GNstudio retains all right, title and
+interest in and to the Product and Materials, and modifications
+to the Product and the Materials.  Customer may not decompile,
+disassemble or reverse engineer any Product. Customer may make
+one copy of each Product for back-up purposes.  All copies of
+Product must contain GNstudio&apos;s and its suppliers&apos; proprietary
+rights notices.  The Product may not be modified, altered or
+enhanced. Customer may not allow any third party to access the
+Product. In no event may Customer transfer, sublicense or distribute
+any Product.  The Product and the Materials may not be copied
+or otherwise reproduced. Customer will obtain and install all
+prerequisite hardware and software (including any necessary access
+rights for GNstudio) identified by GNstudio.
+
+1.3     &quot;Confidential Information&quot; means all information furnished
+by GNstudio in oral, written or machine-readable form, disclosed
+as a result of this Agreement, and that should reasonably have
+been understood by Customer, because of legends or other markings,
+the circumstances of disclosure or the nature of the information
+itself, to be proprietary and confidential to GNstudio, an affiliate
+of it or to a third party. The results of the evaluation will
+also be treated as GNstudio Confidential Information. Customer
+will use a reasonable standard of care to prevent unauthorized
+access to or disclosure of the Confidential Information, but
+in no event less than a reasonable standard of care.  Customer
+will disclose the Confidential Information only to its employees
+with a need to know. The restrictions of this Agreement on use
+and disclosure of Confidential Information shall not apply to
+information that becomes publicly known through no fault of the
+Customer or its personnel. All confidentiality obligations regarding
+Confidential Information shall survive with respect to any Confidential
+Information received prior to the expiration or termination of
+this Agreement.
+
+1.4   Ownership.  Customer acknowledges that GNstudio retains
+ownership of all right, title and interest to the Products and
+Materials and modifications and enhancements of the foregoing.
+
+2.      WARRANTY DISCLAIMER. THE PRODUCT IS PROVIDED &quot;AS IS&quot;
+AND WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, INCLUDING THE
+IMPLIED WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT, QUIET
+ENJOYMENT, ACCURACY OF DATA, SYSTEM INTEGRATION, COURSE OF PERFORMANCE
+AND FITNESS FOR A PARTICULAR PURPOSE.  GNSTUDIO DOES NOT GUARANTEE
+OR WARRANT THAT THE USE OF THE PRODUCT WILL BE UNINTERRUPTED
+OR ERROR FREE.
+
+3.  LIMITATION OF LIABILITY. IN NO EVENT WILL GNSTUDIO BE LIABLE
+FOR ANY CLAIM BASED UPON A THIRD PARTY CLAIM, ANY INCIDENTAL,
+CONSEQUENTIAL, SPECIAL, INDIRECT, EXEMPLARY OR PUNITIVE DAMAGES,
+WHETHER ARISING IN TORT, CONTRACT, OR OTHERWISE; OR FOR ANY DAMAGES
+ARISING OUT OF OR IN CONNECTION WITH ANY MALFUNCTIONS, DELAYS,
+LOSS OF DATA, LOST PROFITS, LOST SAVINGS, INTERRUPTION OF SERVICE,
+LOSS OF BUSINESS OR ANTICIPATORY PROFITS, EVEN IF GNSTUDIO HAS
+BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. GNSTUDIO&apos;S AGGREGATE
+AND CUMULATIVE LIABILITY ARISING OUT OF OR RELATING TO THIS AGREEMENT,
+REGARDLESS OF THE FORM OF THE CAUSE OF ACTION, WHETHER IN CONTRACT,
+TORT (INCLUDING WITHOUT LIMITATION NEGLIGENCE), STATUTE OR OTHERWISE
+WILL BE LIMITED TO DIRECT DAMAGES AND WILL NOT EXCEED TEN THOUSAND
+DOLLARS (US $10,000). THE ALLOCATIONS OF LIABILITY IN THIS SECTION
+3 REPRESENT THE AGREED AND BARGAINED FOR UNDERSTANDING OF THE
+PARTIES, AND THE COMPENSATION OF GNSTUDIO FOR THE SERVICES PROVIDED
+HEREUNDER REFLECTS SUCH ALLOCATIONS. THE FOREGOING LIMITATIONS,
+EXCLUSIONS AND DISCLAIMERS ARE AN ALLOCATION OF THE RISK BETWEEN
+THE PARTIES AND WILL APPLY TO THE MAXIMUM EXTENT PERMITTED BY
+APPLICABLE LAW, EVEN IF ANY REMEDY FAILS IN ITS ESSENTIAL PURPOSE.
+
+4. TERM AND TERMINATION.  The term of this Agreement will begin
+and end on the dates specified in the Evaluation Period above
+or when Product becomes generally available, whichever occurs
+first
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.gnstudio.apdt.model.editor"/>
+      <import plugin="org.gnstudio.apdt"/>
+      <import plugin="org.eclipse.ui.forms"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.help"/>
+      <import plugin="org.eclipse.ui.views"/>
+      <import plugin="org.eclipse.emf.ecore" version="2.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor"/>
+      <import plugin="org.gnstudio.apdt.model"/>
+      <import plugin="org.eclipse.acceleo.model" version="3.0.3" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.acceleo.engine" version="3.0.3" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ocl.ecore"/>
+      <import plugin="org.eclipse.emf.codegen.ecore" version="2.5.0" match="greaterOrEqual"/>
+      <import plugin="org.json" version="1.0.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="com.gnstudio.apdt.pseudo.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.gnstudio.apdt.pseudo.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.gnstudio.apdt.flex.gen.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.gnstudio.apdt.java.gen.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.gnstudio.apdt"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.gnstudio.apdt.js.gen.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.gnstudio.apdt.php.gen.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.json"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.gnstudio.apdt.haxe.gen.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

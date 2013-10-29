@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.gnstudio.apdt.model.editor.exportProvider">
+      <provider
+            class="com.gnstudio.apdt.js.gen.core.JSCFExportProvider">
+      </provider>
+      <provider
+            class="com.gnstudio.apdt.js.gen.core.JSOLExportProvider">
+      </provider>
+   </extension>
+
+</plugin>
